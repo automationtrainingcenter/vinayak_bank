@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25538" started-at="2019-02-27T03:57:53Z" finished-at="2019-02-27T03:58:19Z">
+  <suite name="Default suite" duration-ms="26659" started-at="2019-02-28T03:53:49Z" finished-at="2019-02-28T03:54:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25538" started-at="2019-02-27T03:57:53Z" finished-at="2019-02-27T03:58:19Z">
+    <test name="Default test" duration-ms="26659" started-at="2019-02-28T03:53:49Z" finished-at="2019-02-28T03:54:16Z">
       <class name="in.srssprojects.keximbank.TestExecution">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:in.srssprojects.keximbank.TestExecution@39aeed2f]" name="launchBrowser" duration-ms="11427" started-at="2019-02-27T03:57:53Z" finished-at="2019-02-27T03:58:04Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="browserLaunch" duration-ms="10427" started-at="2019-02-28T03:53:49Z" finished-at="2019-02-28T03:54:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.TestExecution@39aeed2f]" name="testLogin" duration-ms="2372" started-at="2019-02-27T03:58:04Z" finished-at="2019-02-27T03:58:07Z">
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="testLogin" duration-ms="2491" started-at="2019-02-28T03:54:00Z" finished-at="2019-02-28T03:54:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="roleCreationWithValidData()[pri:2, instance:in.srssprojects.keximbank.TestExecution@39aeed2f]" name="roleCreationWithValidData" duration-ms="3173" started-at="2019-02-27T03:58:07Z" finished-at="2019-02-27T03:58:10Z">
+        <test-method status="PASS" signature="roleCreationWithValidData()[pri:2, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationWithValidData" duration-ms="3532" started-at="2019-02-28T03:54:02Z" finished-at="2019-02-28T03:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roleCreationWithValidData -->
-        <test-method status="PASS" signature="roleCreationWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@39aeed2f]" name="roleCreationWithDuplicateData" duration-ms="2662" started-at="2019-02-27T03:58:10Z" finished-at="2019-02-27T03:58:13Z">
+        <test-method status="PASS" signature="roleCreationWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationWithDuplicateData" duration-ms="1969" started-at="2019-02-28T03:54:06Z" finished-at="2019-02-28T03:54:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roleCreationWithDuplicateData -->
-        <test-method status="PASS" signature="roleCreationWithBlankData()[pri:4, instance:in.srssprojects.keximbank.TestExecution@39aeed2f]" name="roleCreationWithBlankData" duration-ms="1276" started-at="2019-02-27T03:58:13Z" finished-at="2019-02-27T03:58:14Z">
+        <test-method status="PASS" signature="roleCreationWithBlankData()[pri:4, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationWithBlankData" duration-ms="1209" started-at="2019-02-28T03:54:08Z" finished-at="2019-02-28T03:54:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roleCreationWithBlankData -->
-        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.TestExecution@39aeed2f]" name="roleCreationReset" duration-ms="1944" started-at="2019-02-27T03:58:14Z" finished-at="2019-02-27T03:58:16Z">
+        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationReset" duration-ms="2321" started-at="2019-02-28T03:54:09Z" finished-at="2019-02-28T03:54:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roleCreationReset -->
-        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.TestExecution@39aeed2f]" name="roleCreationCancel" duration-ms="1454" started-at="2019-02-27T03:58:16Z" finished-at="2019-02-27T03:58:17Z">
+        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationCancel" duration-ms="1506" started-at="2019-02-28T03:54:11Z" finished-at="2019-02-28T03:54:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roleCreationCancel -->
-        <test-method status="PASS" signature="logoutTest()[pri:7, instance:in.srssprojects.keximbank.TestExecution@39aeed2f]" name="logoutTest" duration-ms="1137" started-at="2019-02-27T03:58:17Z" finished-at="2019-02-27T03:58:19Z">
+        <test-method status="PASS" signature="logoutTest()[pri:7, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="logoutTest" duration-ms="3110" started-at="2019-02-28T03:54:13Z" finished-at="2019-02-28T03:54:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->

@@ -6,7 +6,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-public class TestExecution {
+import utilities.BrowserHelper;
+
+public class TestExecution extends BrowserHelper{
 	
 	//BrandhDetailsPage
 	
@@ -16,7 +18,6 @@ public class TestExecution {
 	
 	//EmployeeCreationPage 
 	
-	WebDriver driver;
 	Alert alert;
 	BankHomePage bankHomePageObj;
 	AdminHomePage adminHomePageObj;
@@ -24,18 +25,15 @@ public class TestExecution {
 	RoleCreationPage roleCreationPageObj;
 	
 	@Test(priority = 0)
-	public void launchBrowser() {
-		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("http://www.srssprojects.in");
+	public void browserLaunch() {
+		launchBrowser(readProperty("browserName"), readProperty("url"));
 		bankHomePageObj = new BankHomePage(driver);
 	}
 	
 	@Test(priority = 1)
 	public void testLogin() {
-		bankHomePageObj.fillUserName("Admin");
-		bankHomePageObj.fillPassword("Admin");
+		bankHomePageObj.fillUserName(readProperty("username"));
+		bankHomePageObj.fillPassword(readProperty("password"));
 		bankHomePageObj.clickLogin();
 		adminHomePageObj = PageFactory.initElements(driver, AdminHomePage.class);
 	}
@@ -93,7 +91,7 @@ public class TestExecution {
 	@Test(priority = 7)
 	public void logoutTest() {
 		adminHomePageObj.clickLogoutButton();
-		driver.close();
+		closeBrowser();
 	}
 
 }
