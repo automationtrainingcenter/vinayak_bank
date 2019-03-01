@@ -4,6 +4,8 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import utilities.BrowserHelper;
@@ -24,7 +26,7 @@ public class TestExecution extends BrowserHelper{
 	RoleDetailsPage roleDetailsPageObj;
 	RoleCreationPage roleCreationPageObj;
 	
-	@Test(priority = 0)
+	@BeforeClass
 	public void browserLaunch() {
 		launchBrowser(readProperty("browserName"), readProperty("url"));
 		bankHomePageObj = new BankHomePage(driver);
@@ -88,7 +90,7 @@ public class TestExecution extends BrowserHelper{
 		roleDetailsPageObj = roleCreationPageObj.cancleButton();
 	}
 	
-	@Test(priority = 7)
+	@AfterClass
 	public void logoutTest() {
 		adminHomePageObj.clickLogoutButton();
 		closeBrowser();

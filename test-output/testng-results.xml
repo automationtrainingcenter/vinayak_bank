@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26659" started-at="2019-02-28T03:53:49Z" finished-at="2019-02-28T03:54:16Z">
+  <suite name="basic suite" duration-ms="19176" started-at="2019-03-01T03:54:36Z" finished-at="2019-03-01T03:54:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26659" started-at="2019-02-28T03:53:49Z" finished-at="2019-02-28T03:54:16Z">
+    <test name="basic test" duration-ms="19176" started-at="2019-03-01T03:54:36Z" finished-at="2019-03-01T03:54:55Z">
       <class name="in.srssprojects.keximbank.TestExecution">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="browserLaunch" duration-ms="10427" started-at="2019-02-28T03:53:49Z" finished-at="2019-02-28T03:54:00Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="browserLaunch" is-config="true" duration-ms="11633" started-at="2019-03-01T03:54:36Z" finished-at="2019-03-01T03:54:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="testLogin" duration-ms="2491" started-at="2019-02-28T03:54:00Z" finished-at="2019-02-28T03:54:02Z">
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="testLogin" duration-ms="2748" started-at="2019-03-01T03:54:48Z" finished-at="2019-03-01T03:54:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="roleCreationWithValidData()[pri:2, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationWithValidData" duration-ms="3532" started-at="2019-02-28T03:54:02Z" finished-at="2019-02-28T03:54:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithValidData -->
-        <test-method status="PASS" signature="roleCreationWithDuplicateData()[pri:3, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationWithDuplicateData" duration-ms="1969" started-at="2019-02-28T03:54:06Z" finished-at="2019-02-28T03:54:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithDuplicateData -->
-        <test-method status="PASS" signature="roleCreationWithBlankData()[pri:4, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationWithBlankData" duration-ms="1209" started-at="2019-02-28T03:54:08Z" finished-at="2019-02-28T03:54:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- roleCreationWithBlankData -->
-        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationReset" duration-ms="2321" started-at="2019-02-28T03:54:09Z" finished-at="2019-02-28T03:54:11Z">
+        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="roleCreationReset" duration-ms="2782" started-at="2019-03-01T03:54:51Z" finished-at="2019-03-01T03:54:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roleCreationReset -->
-        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="roleCreationCancel" duration-ms="1506" started-at="2019-02-28T03:54:11Z" finished-at="2019-02-28T03:54:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- roleCreationCancel -->
-        <test-method status="PASS" signature="logoutTest()[pri:7, instance:in.srssprojects.keximbank.TestExecution@6767c1fc]" name="logoutTest" duration-ms="3110" started-at="2019-02-28T03:54:13Z" finished-at="2019-02-28T03:54:16Z">
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="logoutTest" is-config="true" duration-ms="1945" started-at="2019-03-01T03:54:53Z" finished-at="2019-03-01T03:54:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
       </class> <!-- in.srssprojects.keximbank.TestExecution -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- basic test -->
+  </suite> <!-- basic suite -->
 </testng-results>
