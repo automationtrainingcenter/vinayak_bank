@@ -44,6 +44,10 @@ public class AdminHomePage {
 	}
 
 	// click on branches button
+	public BranchDetailsPage clickBranchButton(){
+		this.branches.click();
+		return PageFactory.initElements(driver, BranchDetailsPage.class);
+	} 
 
 	// click on roles button
 	public RoleDetailsPage clickRoleButton() {
@@ -52,11 +56,17 @@ public class AdminHomePage {
 	}
 
 	// click on employee button
+	public EmployeeDetailPage clickEmployeeButton() {
+		this.employeeButton.click();
+		return PageFactory.initElements(driver, EmployeeDetailPage.class);
+	}
 
 	// click on logout button
 	public BankHomePage clickLogoutButton() {
 		this.logoutButton.click();
 		return PageFactory.initElements(driver, BankHomePage.class);
 	}
+	
+	
 
 }

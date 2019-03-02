@@ -4,9 +4,13 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TestExecution {
+import utilities.BrowserHelper;
+
+public class TestExecution extends BrowserHelper{
 	
 	//BrandhDetailsPage
 	
@@ -16,26 +20,25 @@ public class TestExecution {
 	
 	//EmployeeCreationPage 
 	
-	WebDriver driver;
 	Alert alert;
 	BankHomePage bankHomePageObj;
 	AdminHomePage adminHomePageObj;
 	RoleDetailsPage roleDetailsPageObj;
 	RoleCreationPage roleCreationPageObj;
+	BranchDetailsPage brachDetailsPageObj;
+	EmployeeDetailPage employeeDetailPageObj;
+	EmployeeCreationPage employeeCreationPageObj;
 	
-	@Test(priority = 0)
-	public void launchBrowser() {
-		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("http://www.srssprojects.in");
+	@BeforeClass
+	public void browserLaunch() {
+		launchBrowser(readProperty("browserName"), readProperty("url"));
 		bankHomePageObj = new BankHomePage(driver);
 	}
 	
 	@Test(priority = 1)
 	public void testLogin() {
-		bankHomePageObj.fillUserName("Admin");
-		bankHomePageObj.fillPassword("Admin");
+		bankHomePageObj.fillUserName(readProperty("username"));
+		bankHomePageObj.fillPassword(readProperty("password"));
 		bankHomePageObj.clickLogin();
 		adminHomePageObj = PageFactory.initElements(driver, AdminHomePage.class);
 	}
@@ -90,10 +93,33 @@ public class TestExecution {
 		roleDetailsPageObj = roleCreationPageObj.cancleButton();
 	}
 	
+	
 	@Test(priority = 7)
+	public void branchDetailssearch() {
+		
+		brachDetailsPageObj = adminHomePageObj.clickBranchButton();
+		brachDetailsPageObj.selectCountry("INDIA");
+		brachDetailsPageObj.selectState("GOA");
+		brachDetailsPageObj.selectCity("GOA");
+		brachDetailsPageObj.clickSearchButton();
+		brachDetailsPageObj.clickClearSearchButton();
+	}
+	
+	@Test(priority = 8)
+	public void employeeCreationwithValidData() {
+		employeeDetailPageObj = adminHomePageObj.clickEmployeeButton();
+		employeeCreationPageObj = employeeDetailPageObj.ClickNewEmployeeButton();
+		employeeCreationPageObj.EnterEmployeeName("vijay");
+		employeeCreationPageObj.EnterEmployeePassword("Test@123");
+		employeeCreationPageObj.SelectEmpRole("manager");
+		employeeCreationPageObj.SelectEmpBranch("Amritsar");
+		employeeCreationPageObj.ClickEmpSubmitButton();
+	}
+	
+	@AfterClass
 	public void logoutTest() {
 		adminHomePageObj.clickLogoutButton();
-		driver.close();
+		closeBrowser();
 	}
 
 }

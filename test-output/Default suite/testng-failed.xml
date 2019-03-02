@@ -6,6 +6,7 @@
       <class name="in.srssprojects.keximbank.TestExecution">
         <methods>
           <include name="roleCreationCancel"/>
+          <include name="testLogin"/>
           <include name="logoutTest"/>
           <include name="roleCreationReset"/>
           <include name="roleCreationWithBlankData"/>
