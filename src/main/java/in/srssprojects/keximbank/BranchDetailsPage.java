@@ -13,18 +13,23 @@ public class BranchDetailsPage {
 	
 	WebDriver driver;
 	
+	//Country
 	@FindBy(how = How.ID, using = "lst_countryS")
 	private WebElement country;
-
+	
+    //State
 	@FindBy(how = How.ID, using = "lst_stateS")
 	private WebElement state;
 	
+	//City
 	@FindBy(how = How.ID, using = "lst_cityS")
 	private WebElement city;
 	
+	//Search Button
 	@FindBy(how = How.ID, using ="btn_search") 
 	private WebElement searchButton;
 	
+	//Clear Search Button
 	@FindBy(how = How.ID, using ="btn_clsearch")
 	private WebElement clearSearchButton;
 	
@@ -32,7 +37,7 @@ public class BranchDetailsPage {
 	@FindBy(how=How.ID, using = "BtnNewBR")
 	private WebElement newBranchButton;
 	
-	
+	//pagefactory constructor
 	public BranchDetailsPage(WebDriver driver) {
 		this.driver =driver;
 		PageFactory.initElements(driver, this);

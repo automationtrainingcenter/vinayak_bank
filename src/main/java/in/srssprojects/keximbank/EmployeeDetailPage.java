@@ -10,16 +10,17 @@ public class EmployeeDetailPage {
 	
 	
 	WebDriver driver;
-	
+	//New Employee 
 	@FindBy(how = How.ID, using ="BtnNew")
 	private WebElement newEmployeeButton;
 	
-	
+	//page factory construtor
 	public void EmployeeDetailPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
+	//click New Employee button
 	public EmployeeCreationPage ClickNewEmployeeButton() {
 		this.newEmployeeButton.click();
 		return PageFactory.initElements(driver, EmployeeCreationPage.class);

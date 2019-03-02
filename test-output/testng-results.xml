@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="1" ignored="6" total="8" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="basic suite" duration-ms="18151" started-at="2019-03-02T05:17:16Z" finished-at="2019-03-02T05:17:34Z">
+  <suite name="basic suite" duration-ms="19291" started-at="2019-03-02T05:32:12Z" finished-at="2019-03-02T05:32:31Z">
     <groups>
     </groups>
-    <test name="basic test" duration-ms="18151" started-at="2019-03-02T05:17:16Z" finished-at="2019-03-02T05:17:34Z">
+    <test name="basic test" duration-ms="19291" started-at="2019-03-02T05:32:12Z" finished-at="2019-03-02T05:32:31Z">
       <class name="in.srssprojects.keximbank.TestExecution">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="browserLaunch" is-config="true" duration-ms="10428" started-at="2019-03-02T05:17:16Z" finished-at="2019-03-02T05:17:26Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="browserLaunch" is-config="true" duration-ms="11517" started-at="2019-03-02T05:32:12Z" finished-at="2019-03-02T05:32:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="testLogin" duration-ms="2517" started-at="2019-03-02T05:17:26Z" finished-at="2019-03-02T05:17:29Z">
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="testLogin" duration-ms="2552" started-at="2019-03-02T05:32:24Z" finished-at="2019-03-02T05:32:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="FAIL" signature="employeeCreationwithValidData()[pri:8, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="employeeCreationwithValidData" duration-ms="4282" started-at="2019-03-02T05:17:29Z" finished-at="2019-03-02T05:17:33Z">
+        <test-method status="FAIL" signature="employeeCreationwithValidData()[pri:8, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="employeeCreationwithValidData" duration-ms="4040" started-at="2019-03-02T05:32:26Z" finished-at="2019-03-02T05:32:30Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
-at in.srssprojects.keximbank.EmployeeCreationPage.EnterEmployeeName(EmployeeCreationPage.java:41)
+at in.srssprojects.keximbank.EmployeeCreationPage.EnterEmployeeName(EmployeeCreationPage.java:50)
 at in.srssprojects.keximbank.TestExecution.employeeCreationwithValidData(TestExecution.java:112)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- employeeCreationwithValidData -->
-        <test-method status="PASS" signature="logoutTest()[pri:0, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="logoutTest" is-config="true" duration-ms="843" started-at="2019-03-02T05:17:33Z" finished-at="2019-03-02T05:17:34Z">
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="logoutTest" is-config="true" duration-ms="1070" started-at="2019-03-02T05:32:30Z" finished-at="2019-03-02T05:32:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
