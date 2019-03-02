@@ -2,7 +2,6 @@ package in.srssprojects.keximbank;
 // this class is implemented using page factory
 
 import java.awt.print.Pageable;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
