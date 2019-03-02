@@ -68,5 +68,10 @@ public class AdminHomePage {
 	}
 	
 	
+	//page validation using visibility of logout button and  url of the page
+	public boolean isAdminHomePageDisplayed() {
+		return this.logoutButton.isDisplayed() && driver.getCurrentUrl().contains("adminflow");
+	}
+	
 
 }

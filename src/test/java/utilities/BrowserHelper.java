@@ -116,6 +116,11 @@ public class BrowserHelper {
 	}
 	
 	
+	//valid alert message
+	public boolean validateAlert(String exprectedAlertText, String actualAlertext) {
+		return actualAlertext.toLowerCase().contains(exprectedAlertText);
+	}
+	
 	
 
 }

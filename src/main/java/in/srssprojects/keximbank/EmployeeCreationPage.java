@@ -1,5 +1,7 @@
 package in.srssprojects.keximbank;
 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -68,8 +70,9 @@ public class EmployeeCreationPage {
 	}
 	
 	//Click Submit button
-	public void ClickEmpSubmitButton() {
+	public Alert ClickEmpSubmitButton() {
 		this.employeeSubmitButton.click();
+		return driver.switchTo().alert();
 	}
 	
 	//Click Reset Button
@@ -78,7 +81,15 @@ public class EmployeeCreationPage {
 	}
 	
 	//Click Cancel Button
-	public void ClickEmpCancelButton() {
+	public EmployeeDetailPage ClickEmpCancelButton() {
 		this.employeeCancelButton.click();
+		return PageFactory.initElements(driver, EmployeeDetailPage.class);
 	}
+	
+	//validate is creation form reset or not
+		public boolean isFormReset() {
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+			return js.executeScript("return arguments[0].value", this.employeeName).toString().isEmpty();
+			
+		}
 }

@@ -15,7 +15,7 @@ public class EmployeeDetailPage {
 	private WebElement newEmployeeButton;
 	
 	//page factory construtor
-	public void EmployeeDetailPage(WebDriver driver) {
+	public EmployeeDetailPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -24,7 +24,10 @@ public class EmployeeDetailPage {
 	public EmployeeCreationPage ClickNewEmployeeButton() {
 		this.newEmployeeButton.click();
 		return PageFactory.initElements(driver, EmployeeCreationPage.class);
-		
 	}
 
+	//validate employee details page
+	public boolean isNewEmployeeButtonDisplayed() {
+		return this.newEmployeeButton.isDisplayed();
+	}
 }

@@ -5,8 +5,8 @@
     <classes>
       <class name="in.srssprojects.keximbank.TestExecution">
         <methods>
-          <include name="employeeCreationwithValidData"/>
           <include name="logoutTest"/>
+          <include name="employeeCreationCancel"/>
           <include name="browserLaunch"/>
         </methods>
       </class> <!-- in.srssprojects.keximbank.TestExecution -->

@@ -1,6 +1,8 @@
 package in.srssprojects.keximbank;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -94,14 +96,21 @@ public class BranchCreationPage {
 	}
 	
 	//click reset button
-	public void Reset() {
+	public void clickResetButton() {
 		this.reset.click();
 	}
 	
 	//click cancel button
-	public void CancelButton() {
+	public BranchDetailsPage CancelButton() {
 		this.cancel.click();
-//		return PageFactory.initElements(driver, .class);	
+		return PageFactory.initElements(driver, BranchDetailsPage.class);	
+	}
+	
+	//validate is creation form reset or not
+	public boolean isFormReset() {
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		return js.executeScript("return arguments[0].value", this.branchName).toString().isEmpty();
+		
 	}
 	
 	

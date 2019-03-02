@@ -2,12 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="basic suite">
 	<test name="basic test">
+		<groups>
+			<run>
+				<include name="reset"></include>
+				<include name="cancel"></include>
+			</run>
+		</groups>
+
 		<classes>
 			<class name="in.srssprojects.keximbank.TestExecution">
-				<methods>
-					<include name="testLogin"></include>
-					<include name="employeeCreationReset"></include>
-				</methods>
 			</class>
 		</classes>
 	</test>
