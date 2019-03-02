@@ -25,6 +25,9 @@ public class TestExecution extends BrowserHelper{
 	AdminHomePage adminHomePageObj;
 	RoleDetailsPage roleDetailsPageObj;
 	RoleCreationPage roleCreationPageObj;
+	BranchDetailsPage brachDetailsPageObj;
+	EmployeeDetailPage employeeDetailPageObj;
+	EmployeeCreationPage employeeCreationPageObj;
 	
 	@BeforeClass
 	public void browserLaunch() {
@@ -88,6 +91,29 @@ public class TestExecution extends BrowserHelper{
 		roleDetailsPageObj = adminHomePageObj.clickRoleButton();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRoleButton();
 		roleDetailsPageObj = roleCreationPageObj.cancleButton();
+	}
+	
+	
+	@Test(priority = 7)
+	public void branchDetailssearch() {
+		
+		brachDetailsPageObj = adminHomePageObj.clickBranchButton();
+		brachDetailsPageObj.selectCountry("INDIA");
+		brachDetailsPageObj.selectState("GOA");
+		brachDetailsPageObj.selectCity("GOA");
+		brachDetailsPageObj.clickSearchButton();
+		brachDetailsPageObj.clickClearSearchButton();
+	}
+	
+	@Test(priority = 8)
+	public void employeeCreationwithValidData() {
+		employeeDetailPageObj = adminHomePageObj.clickEmployeeButton();
+		employeeCreationPageObj = employeeDetailPageObj.ClickNewEmployeeButton();
+		employeeCreationPageObj.EnterEmployeeName("vijay");
+		employeeCreationPageObj.EnterEmployeePassword("Test@123");
+		employeeCreationPageObj.SelectEmpRole("manager");
+		employeeCreationPageObj.SelectEmpBranch("Amritsar");
+		employeeCreationPageObj.ClickEmpSubmitButton();
 	}
 	
 	@AfterClass

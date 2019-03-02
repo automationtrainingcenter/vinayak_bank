@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-basic_suite">
-              <span class="suite-name border-passed">basic suite</span>
+              <span class="suite-name border-failed">basic suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-basic_suite">
-                    <span>D:\SSTS\sharath\keximbank\basic.xml</span>
+                    <span>C:\V\selenium\workspace\vinayak_bank\basic.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-basic_suite" class="hide-methods failed suite-basic_suite"> (hide)</a> <!-- hide-methods failed suite-basic_suite -->
+                      <a href="#" panel-name="suite-basic_suite" class="show-methods failed suite-basic_suite"> (show)</a> <!-- show-methods failed suite-basic_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-basic_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-basic_suite" title="in.srssprojects.keximbank.TestExecution" hash-for-method="employeeCreationwithValidData">employeeCreationwithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-basic_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-basic_suite" class="show-methods passed suite-basic_suite"> (show)</a> <!-- show-methods passed suite-basic_suite -->
                     </span>
                     <div class="method-list-content passed suite-basic_suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-basic_suite" title="in.srssprojects.keximbank.TestExecution" hash-for-method="roleCreationReset">roleCreationReset</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-basic_suite" title="in.srssprojects.keximbank.TestExecution" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
@@ -122,19 +131,35 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-basic_suite" class="panel basic_suite">
+          <div class="suite-basic_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">in.srssprojects.keximbank.TestExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeCreationwithValidData">
+                  </a> <!-- employeeCreationwithValidData -->
+                  <span class="method-name">employeeCreationwithValidData</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at in.srssprojects.keximbank.EmployeeCreationPage.EnterEmployeeName(EmployeeCreationPage.java:41)
+	at in.srssprojects.keximbank.TestExecution.employeeCreationwithValidData(TestExecution.java:112)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-basic_suite-class-failed -->
           <div class="suite-basic_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">in.srssprojects.keximbank.TestExecution</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="roleCreationReset">
-                  </a> <!-- roleCreationReset -->
-                  <span class="method-name">roleCreationReset</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testLogin">
@@ -147,7 +172,7 @@
         </div> <!-- panel basic_suite -->
         <div panel-name="test-xml-basic_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\SSTS\sharath\keximbank\basic.xml</span>
+            <span class="header-content">C:\V\selenium\workspace\vinayak_bank\basic.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -159,7 +184,7 @@
       &lt;class name=&quot;in.srssprojects.keximbank.TestExecution&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;testLogin&quot;/&gt;
-          &lt;include name=&quot;roleCreationReset&quot;/&gt;
+          &lt;include name=&quot;employeeCreationwithValidData&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- in.srssprojects.keximbank.TestExecution --&gt;
     &lt;/classes&gt;
@@ -203,18 +228,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'roleCreationReset')
+data.setCell(0, 1, 'employeeCreationwithValidData')
 data.setCell(0, 2, 'in.srssprojects.keximbank.TestExecution')
-data.setCell(0, 3, 2782);
+data.setCell(0, 3, 4282);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogin')
 data.setCell(1, 2, 'in.srssprojects.keximbank.TestExecution')
-data.setCell(1, 3, 2748);
+data.setCell(1, 3, 2517);
 window.suiteTableData['basic_suite']= { tableData: data, tableDiv: 'times-div-basic_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-basic_suite">
               </div> <!-- times-div-basic_suite -->
             </div> <!-- times-div -->
@@ -229,7 +254,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-basic_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -237,9 +262,13 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">roleCreationCancel</span>
                 <br/>
+                <span class="ignored-method-name">roleCreationReset</span>
+                <br/>
                 <span class="ignored-method-name">roleCreationWithBlankData</span>
                 <br/>
                 <span class="ignored-method-name">roleCreationWithValidData</span>
+                <br/>
+                <span class="ignored-method-name">branchDetailssearch</span>
                 <br/>
                 <span class="ignored-method-name">roleCreationWithDuplicateData</span>
                 <br/>
@@ -260,15 +289,17 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">11667 ms</span>
+                <span class="method-start">10478 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">roleCreationReset</span>
-                <span class="method-start">14428 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">employeeCreationwithValidData</span>
+                <span class="method-start">13006 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">logoutTest</span>
-                <span class="method-start">17214 ms</span>
+                <span class="method-start">17292 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

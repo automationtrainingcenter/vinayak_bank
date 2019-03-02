@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+<testng-results skipped="0" failed="1" ignored="6" total="8" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="basic suite" duration-ms="19176" started-at="2019-03-01T03:54:36Z" finished-at="2019-03-01T03:54:55Z">
+  <suite name="basic suite" duration-ms="18151" started-at="2019-03-02T05:17:16Z" finished-at="2019-03-02T05:17:34Z">
     <groups>
     </groups>
-    <test name="basic test" duration-ms="19176" started-at="2019-03-01T03:54:36Z" finished-at="2019-03-01T03:54:55Z">
+    <test name="basic test" duration-ms="18151" started-at="2019-03-02T05:17:16Z" finished-at="2019-03-02T05:17:34Z">
       <class name="in.srssprojects.keximbank.TestExecution">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="browserLaunch" is-config="true" duration-ms="11633" started-at="2019-03-01T03:54:36Z" finished-at="2019-03-01T03:54:48Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="browserLaunch" is-config="true" duration-ms="10428" started-at="2019-03-02T05:17:16Z" finished-at="2019-03-02T05:17:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="testLogin" duration-ms="2748" started-at="2019-03-01T03:54:48Z" finished-at="2019-03-01T03:54:51Z">
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="testLogin" duration-ms="2517" started-at="2019-03-02T05:17:26Z" finished-at="2019-03-02T05:17:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="roleCreationReset" duration-ms="2782" started-at="2019-03-01T03:54:51Z" finished-at="2019-03-01T03:54:53Z">
+        <test-method status="FAIL" signature="employeeCreationwithValidData()[pri:8, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="employeeCreationwithValidData" duration-ms="4282" started-at="2019-03-02T05:17:29Z" finished-at="2019-03-02T05:17:33Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at in.srssprojects.keximbank.EmployeeCreationPage.EnterEmployeeName(EmployeeCreationPage.java:41)
+at in.srssprojects.keximbank.TestExecution.employeeCreationwithValidData(TestExecution.java:112)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- roleCreationReset -->
-        <test-method status="PASS" signature="logoutTest()[pri:0, instance:in.srssprojects.keximbank.TestExecution@d8355a8]" name="logoutTest" is-config="true" duration-ms="1945" started-at="2019-03-01T03:54:53Z" finished-at="2019-03-01T03:54:55Z">
+        </test-method> <!-- employeeCreationwithValidData -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:in.srssprojects.keximbank.TestExecution@5b275dab]" name="logoutTest" is-config="true" duration-ms="843" started-at="2019-03-02T05:17:33Z" finished-at="2019-03-02T05:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->

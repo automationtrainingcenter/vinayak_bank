@@ -6,7 +6,7 @@
 			<class name="in.srssprojects.keximbank.TestExecution">
 				<methods>
 					<include name="testLogin"></include>
-					<include name="roleCreationReset"></include>
+					<include name="employeeCreationwithValidData"></include>
 				</methods>
 			</class>
 		</classes>
