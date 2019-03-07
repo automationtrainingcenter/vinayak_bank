@@ -3,10 +3,10 @@
 <suite name="basic suite">
 	<test name="basic test">
 		<classes>
-			<class name="in.srssprojects.keximbank.TestExecution">
+			<class name="in.srssprojects.keximbank.BaseicExecution">
 				<methods>
 					<include name="testLogin"></include>
-					<include name="employeeCreationReset"></include>
+					<include name="testTable"></include>
 				</methods>
 			</class>
 		</classes>

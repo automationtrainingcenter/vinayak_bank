@@ -1,5 +1,6 @@
 package in.srssprojects.keximbank;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +13,9 @@ public class RoleDetailsPage {
 	//new role button
 	@FindBy(how = How.ID, using = "btnRoles")
 	private WebElement newRoleButton;
+	
+	
+	private By rolesTable = By.xpath("//table[@id='DGRoles']/tbody");
 	
 	public RoleDetailsPage(WebDriver driver) {
 		this.driver = driver;

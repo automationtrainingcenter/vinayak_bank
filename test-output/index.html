@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-basic_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-basic_suite" title="in.srssprojects.keximbank.TestExecution" hash-for-method="employeeCreationReset">employeeCreationReset</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-basic_suite" title="in.srssprojects.keximbank.BaseicExecution" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-basic_suite" title="in.srssprojects.keximbank.TestExecution" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-basic_suite" title="in.srssprojects.keximbank.BaseicExecution" hash-for-method="testTable">testTable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-basic_suite -->
@@ -125,21 +125,21 @@
           <div class="suite-basic_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">in.srssprojects.keximbank.TestExecution</span>
+              <span class="class-name">in.srssprojects.keximbank.BaseicExecution</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="employeeCreationReset">
-                  </a> <!-- employeeCreationReset -->
-                  <span class="method-name">employeeCreationReset</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testLogin">
                   </a> <!-- testLogin -->
                   <span class="method-name">testLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTable">
+                  </a> <!-- testTable -->
+                  <span class="method-name">testTable</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -156,12 +156,12 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;basic suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;basic test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;in.srssprojects.keximbank.TestExecution&quot;&gt;
+      &lt;class name=&quot;in.srssprojects.keximbank.BaseicExecution&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;testLogin&quot;/&gt;
-          &lt;include name=&quot;employeeCreationReset&quot;/&gt;
+          &lt;include name=&quot;testTable&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- in.srssprojects.keximbank.TestExecution --&gt;
+      &lt;/class&gt; &lt;!-- in.srssprojects.keximbank.BaseicExecution --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- basic test --&gt;
 &lt;/suite&gt; &lt;!-- basic suite --&gt;
@@ -213,10 +213,6 @@
               <span class="test-group-name">employee</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">employeeCreationReset</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">testLogin</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -233,10 +229,6 @@
               <span class="test-group-name">reset</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">employeeCreationReset</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
                 <span class="method-in-group-name">testLogin</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -252,10 +244,6 @@
             <div class="test-group">
               <span class="test-group-name">valid</span>
               <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">employeeCreationReset</span>
-                <br/>
-              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">testLogin</span>
                 <br/>
@@ -279,18 +267,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'employeeCreationReset')
-data.setCell(0, 2, 'in.srssprojects.keximbank.TestExecution')
-data.setCell(0, 3, 8186);
+data.setCell(0, 1, 'testTable')
+data.setCell(0, 2, 'in.srssprojects.keximbank.BaseicExecution')
+data.setCell(0, 3, 71231);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogin')
-data.setCell(1, 2, 'in.srssprojects.keximbank.TestExecution')
-data.setCell(1, 3, 2515);
+data.setCell(1, 2, 'in.srssprojects.keximbank.BaseicExecution')
+data.setCell(1, 3, 2490);
 window.suiteTableData['basic_suite']= { tableData: data, tableDiv: 'times-div-basic_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-basic_suite">
               </div> <!-- times-div-basic_suite -->
             </div> <!-- times-div -->
@@ -305,11 +293,11 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-basic_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">15 ignored methods</span>
+            <span class="header-content">16 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">in.srssprojects.keximbank.TestExecution</span>
+              <span class="ignored-class-name">in.srssprojects.keximbank.BaseicExecution</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">employeeCreationWithBlankData</span>
                 <br/>
@@ -323,21 +311,23 @@ return data;
                 <br/>
                 <span class="ignored-method-name">employeeCreationWithDuplicateData</span>
                 <br/>
+                <span class="ignored-method-name">employeeCreationReset</span>
+                <br/>
                 <span class="ignored-method-name">employeeCreationwithValidData</span>
                 <br/>
                 <span class="ignored-method-name">roleCreationCancel</span>
                 <br/>
                 <span class="ignored-method-name">roleCreationWithBlankData</span>
                 <br/>
-                <span class="ignored-method-name">roleCreationWithValidData</span>
-                <br/>
                 <span class="ignored-method-name">branchCreationWithValidData</span>
+                <br/>
+                <span class="ignored-method-name">roleCreationWithValidData</span>
                 <br/>
                 <span class="ignored-method-name">branchCreationWithBlankData</span>
                 <br/>
-                <span class="ignored-method-name">roleCreationWithDuplicateData</span>
-                <br/>
                 <span class="ignored-method-name">branchCreationWithDuplicateData</span>
+                <br/>
+                <span class="ignored-method-name">roleCreationWithDuplicateData</span>
                 <br/>
                 <span class="ignored-method-name">employeeCreationCancel</span>
                 <br/>
@@ -351,22 +341,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">in.srssprojects.keximbank.TestExecution</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">in.srssprojects.keximbank.BaseicExecution</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">browserLaunch</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">10879 ms</span>
+                <span class="method-start">9980 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">employeeCreationReset</span>
-                <span class="method-start">13402 ms</span>
+                <span class="method-name">testTable</span>
+                <span class="method-start">12474 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">logoutTest</span>
-                <span class="method-start">21591 ms</span>
+                <span class="method-start">83711 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

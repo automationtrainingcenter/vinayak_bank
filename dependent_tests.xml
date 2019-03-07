@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="basic suite">
-	<test name="basic test">
+<suite name="dependent suite">
+	<test name="dependent test">
 		<classes>
-			<class name="in.srssprojects.keximbank.TestExecution">
+			<class name="in.srssprojects.keximbank.BaseicExecution">
 				<methods>
 					<include name="testLogin"></include>
 					<include name="roleCreationWithValidData"></include>

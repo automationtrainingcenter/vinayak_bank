@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="groups suite">
-	<test name="groups test">
+<suite name="parameter suite">
+<parameter name="url" value="http://www.srssprojects.in"></parameter>
+	<test name="chrome test">
+	<parameter name="browserName" value="chrome"></parameter>
 		<groups>
 			<run>
 				<include name="reset"></include>
 				<include name="cancel"></include>
 			</run>
 		</groups>
-
 		<classes>
-			<class name="in.srssprojects.keximbank.BaseicExecution">
+			<class name="in.srssprojects.keximbank.ParameterExecution">
 			</class>
 		</classes>
 	</test>

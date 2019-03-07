@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [basic suite]">
   <test thread-count="5" name="basic test(failed)">
     <classes>
-      <class name="in.srssprojects.keximbank.TestExecution">
+      <class name="in.srssprojects.keximbank.BaseicExecution">
         <methods>
+          <include name="testTable"/>
           <include name="logoutTest"/>
-          <include name="employeeCreationCancel"/>
           <include name="browserLaunch"/>
         </methods>
-      </class> <!-- in.srssprojects.keximbank.TestExecution -->
+      </class> <!-- in.srssprojects.keximbank.BaseicExecution -->
     </classes>
   </test> <!-- basic test(failed) -->
 </suite> <!-- Failed suite [basic suite] -->

@@ -1,7 +1,11 @@
 package in.srssprojects.keximbank;
 
+import javax.swing.plaf.basic.BasicTabbedPaneUI.TabbedPaneLayout;
+
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -11,8 +15,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import utilities.BrowserHelper;
+import utilities.TableHelper;
 
-public class TestExecution extends BrowserHelper {
+public class TestExecution extends TableHelper {
 
 	// BrandhDetailsPage
 
@@ -32,11 +37,7 @@ public class TestExecution extends BrowserHelper {
 	EmployeeCreationPage employeeCreationPageObj;
 	BranchCreationPage branchCreationPageObj;
 
-	@BeforeClass(groups = {"branch", "create", "valid", "role", "employee", "invalid", "reset", "cancel"})
-	public void browserLaunch() {
-		launchBrowser(readProperty("browserName"), readProperty("url"));
-		bankHomePageObj = new BankHomePage(driver);
-	}
+	
 
 	@Test(priority = 1, groups = {"branch", "create", "valid", "role", "employee", "invalid", "reset", "cancel"})
 	public void testLogin() {
@@ -224,11 +225,17 @@ public class TestExecution extends BrowserHelper {
 		branchCreationPageObj = branchDetailsPageObj.clickNewBranchButton();
 		branchDetailsPageObj = branchCreationPageObj.CancelButton();
 	}
-
-	@AfterClass(groups = {"branch", "create", "valid", "role", "employee", "invalid", "reset", "cancel"})
-	public void logoutTest() {
-		adminHomePageObj.clickLogoutButton();
-		closeBrowser();
+	
+	@Test(priority = 18)
+	public void editRole() throws InterruptedException {
+		adminHomePageObj.clickRoleButton();
+		handleTable(By.xpath("//table[@id='DGRoles']/tbody"), "edit", "259");
+		//role updation page
+		//update any one field
+		//click on update button
+		Thread.sleep(2000);
 	}
+
+	
 
 }

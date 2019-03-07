@@ -1,14 +1,11 @@
 package utilities;
 
-import java.awt.AWTException;
-import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -66,7 +63,7 @@ public class BrowserHelper {
 		if(browserName.equalsIgnoreCase("chrome") && System.getProperty("os.name").toLowerCase().contains("win")) {
 			System.setProperty("webdriver.chrome.driver", getFilePath("drivers", "chromedriver.exe"));
 			driver = new ChromeDriver();
-		}else if(browserName.equalsIgnoreCase("firefox") && System.getProperty("os.name").contains("win")) {
+		}else if(browserName.equalsIgnoreCase("firefox") && System.getProperty("os.name").toLowerCase().contains("win")) {
 			System.setProperty("webdriver.gecko.driver", getFilePath("drivers", "geckodriver.exe"));
 			driver = new FirefoxDriver();
 		}else if(browserName.equalsIgnoreCase("chrome")) {

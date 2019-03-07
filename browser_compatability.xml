@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="browser compatability suite">
+<parameter name="url" value="http://www.srssprojects.in"></parameter>
+	<test name="chrome test">
+	<parameter name="browserName" value="chrome"></parameter>
+		<groups>
+			<run>
+				<include name="reset"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="in.srssprojects.keximbank.ParameterExecution">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="firefox test">
+	<parameter name="browserName" value="firefox"></parameter>
+		<groups>
+			<run>
+				<include name="cancel"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="in.srssprojects.keximbank.ParameterExecution">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

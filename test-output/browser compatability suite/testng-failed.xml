@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [browser compatability suite]" parallel="tests">
+  <parameter name="url" value="http://www.srssprojects.in"/>
+  <test thread-count="2" name="chrome test(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="reset"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="in.srssprojects.keximbank.ParameterExecution">
+        <methods>
+          <include name="roleCreationReset"/>
+          <include name="branchCreationRest"/>
+          <include name="logoutTest"/>
+          <include name="browserLaunch"/>
+          <include name="employeeCreationReset"/>
+        </methods>
+      </class> <!-- in.srssprojects.keximbank.ParameterExecution -->
+    </classes>
+  </test> <!-- chrome test(failed) -->
+</suite> <!-- Failed suite [browser compatability suite] -->

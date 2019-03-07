@@ -5,12 +5,23 @@
     <classes>
       <class name="in.srssprojects.keximbank.TestExecution">
         <methods>
+          <include name="employeeCreationWithBlankData"/>
+          <include name="roleCreationReset"/>
+          <include name="testTable"/>
+          <include name="branchDetailssearch"/>
+          <include name="branchCreationCancel"/>
+          <include name="branchCreationRest"/>
+          <include name="employeeCreationWithDuplicateData"/>
+          <include name="employeeCreationReset"/>
+          <include name="employeeCreationwithValidData"/>
           <include name="roleCreationCancel"/>
           <include name="testLogin"/>
-          <include name="logoutTest"/>
-          <include name="roleCreationReset"/>
           <include name="roleCreationWithBlankData"/>
+          <include name="branchCreationWithValidData"/>
           <include name="roleCreationWithValidData"/>
+          <include name="branchCreationWithBlankData"/>
+          <include name="branchCreationWithDuplicateData"/>
+          <include name="employeeCreationCancel"/>
           <include name="roleCreationWithDuplicateData"/>
         </methods>
       </class> <!-- in.srssprojects.keximbank.TestExecution -->
