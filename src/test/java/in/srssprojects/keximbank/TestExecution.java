@@ -37,9 +37,7 @@ public class TestExecution extends TableHelper {
 	EmployeeCreationPage employeeCreationPageObj;
 	BranchCreationPage branchCreationPageObj;
 
-	
-
-	@Test(priority = 1, groups = {"branch", "create", "valid", "role", "employee", "invalid", "reset", "cancel"})
+	@Test(priority = 1, groups = { "branch", "create", "valid", "role", "employee", "invalid", "reset", "cancel" })
 	public void testLogin() {
 		bankHomePageObj.fillUserName(readProperty("username"));
 		bankHomePageObj.fillPassword(readProperty("password"));
@@ -48,7 +46,7 @@ public class TestExecution extends TableHelper {
 		Assert.assertTrue(adminHomePageObj.isAdminHomePageDisplayed());
 	}
 
-	@Test(priority = 2, groups = {"role", "create", "valid"})
+	@Test(priority = 2, groups = { "role", "create", "valid" })
 	public void roleCreationWithValidData() {
 		roleDetailsPageObj = adminHomePageObj.clickRoleButton();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRoleButton();
@@ -62,7 +60,7 @@ public class TestExecution extends TableHelper {
 		Assert.assertTrue(validateAlert("Created Sucessfully", actualAlertext));
 	}
 
-	@Test(priority = 3, groups = {"role", "create", "invalid"}, dependsOnMethods = { "roleCreationWithValidData" })
+	@Test(priority = 3, groups = { "role", "create", "invalid" }, dependsOnMethods = { "roleCreationWithValidData" })
 	public void roleCreationWithDuplicateData() {
 		roleDetailsPageObj = adminHomePageObj.clickRoleButton();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRoleButton();
@@ -74,10 +72,10 @@ public class TestExecution extends TableHelper {
 		alert.accept();
 		Reporter.log(actualAlertext);
 		Assert.assertTrue(validateAlert("role name already exists", actualAlertext));
-		
+
 	}
 
-	@Test(priority = 4, groups = {"role", "create", "invalid"})
+	@Test(priority = 4, groups = { "role", "create", "invalid" })
 	public void roleCreationWithBlankData() {
 		roleDetailsPageObj = adminHomePageObj.clickRoleButton();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRoleButton();
@@ -86,7 +84,7 @@ public class TestExecution extends TableHelper {
 		alert.accept();
 	}
 
-	@Test(priority = 5, groups = {"role", "reset", "valid"})
+	@Test(priority = 5, groups = { "role", "reset", "valid" })
 	public void roleCreationReset() {
 		roleDetailsPageObj = adminHomePageObj.clickRoleButton();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRoleButton();
@@ -96,14 +94,14 @@ public class TestExecution extends TableHelper {
 		roleCreationPageObj.clickReset();
 	}
 
-	@Test(priority = 6, groups = {"role", "cancel", "valid"})
+	@Test(priority = 6, groups = { "role", "cancel", "valid" })
 	public void roleCreationCancel() {
 		roleDetailsPageObj = adminHomePageObj.clickRoleButton();
 		roleCreationPageObj = roleDetailsPageObj.clickNewRoleButton();
 		roleDetailsPageObj = roleCreationPageObj.cancleButton();
 	}
 
-	@Test(priority = 7, groups = {"branch", "search", "valid"})
+	@Test(priority = 7, groups = { "branch", "search", "valid" })
 	public void branchDetailssearch() {
 		branchDetailsPageObj = adminHomePageObj.clickBranchButton();
 		branchDetailsPageObj.selectCountry("INDIA");
@@ -113,7 +111,7 @@ public class TestExecution extends TableHelper {
 		branchDetailsPageObj.clickClearSearchButton();
 	}
 
-	@Test(priority = 8, groups = {"employee", "create", "valid"})
+	@Test(priority = 8, groups = { "employee", "create", "valid" })
 	public void employeeCreationwithValidData() {
 		employeeDetailPageObj = adminHomePageObj.clickEmployeeButton();
 		employeeCreationPageObj = employeeDetailPageObj.ClickNewEmployeeButton();
@@ -127,7 +125,7 @@ public class TestExecution extends TableHelper {
 
 	}
 
-	@Test(priority = 9, groups = {"employee", "create", "invalid"})
+	@Test(priority = 9, groups = { "employee", "create", "invalid" })
 	public void employeeCreationWithDuplicateData() {
 		employeeDetailPageObj = adminHomePageObj.clickEmployeeButton();
 		employeeCreationPageObj = employeeDetailPageObj.ClickNewEmployeeButton();
@@ -140,7 +138,7 @@ public class TestExecution extends TableHelper {
 		alert.accept();
 	}
 
-	@Test(priority = 10, groups = {"employee", "create", "invalid"})
+	@Test(priority = 10, groups = { "employee", "create", "invalid" })
 	public void employeeCreationWithBlankData() {
 		employeeDetailPageObj = adminHomePageObj.clickEmployeeButton();
 		employeeCreationPageObj = employeeDetailPageObj.ClickNewEmployeeButton();
@@ -149,7 +147,7 @@ public class TestExecution extends TableHelper {
 		alert.accept();
 	}
 
-	@Test(priority = 11,  groups = {"employee", "reset", "valid"})
+	@Test(priority = 11, groups = { "employee", "reset", "valid" })
 	public void employeeCreationReset() {
 		employeeDetailPageObj = adminHomePageObj.clickEmployeeButton();
 		employeeCreationPageObj = employeeDetailPageObj.ClickNewEmployeeButton();
@@ -160,14 +158,14 @@ public class TestExecution extends TableHelper {
 		employeeCreationPageObj.ClickEmpResetButton();
 	}
 
-	@Test(priority = 12,  groups = {"employee","cancel", "valid"})
+	@Test(priority = 12, groups = { "employee", "cancel", "valid" })
 	public void employeeCreationCancel() {
 		employeeDetailPageObj = adminHomePageObj.clickEmployeeButton();
 		employeeCreationPageObj = employeeDetailPageObj.ClickNewEmployeeButton();
 		employeeDetailPageObj = employeeCreationPageObj.ClickEmpCancelButton();
 	}
 
-	@Test(priority = 13,  groups = {"branch", "create", "valid"})
+	@Test(priority = 13, groups = { "branch", "create", "valid" })
 	public void branchCreationWithValidData() {
 		branchDetailsPageObj = adminHomePageObj.clickBranchButton();
 		branchCreationPageObj = branchDetailsPageObj.clickNewBranchButton();
@@ -182,7 +180,7 @@ public class TestExecution extends TableHelper {
 		alert.accept();
 	}
 
-	@Test(priority = 14, groups = {"branch", "create", "invalid"})
+	@Test(priority = 14, groups = { "branch", "create", "invalid" })
 	public void branchCreationWithDuplicateData() {
 		branchDetailsPageObj = adminHomePageObj.clickBranchButton();
 		branchCreationPageObj = branchDetailsPageObj.clickNewBranchButton();
@@ -197,7 +195,7 @@ public class TestExecution extends TableHelper {
 		alert.accept();
 	}
 
-	@Test(priority = 15, groups = {"branch", "create", "invalid"})
+	@Test(priority = 15, groups = { "branch", "create", "invalid" })
 	public void branchCreationWithBlankData() {
 		branchDetailsPageObj = adminHomePageObj.clickBranchButton();
 		branchCreationPageObj = branchDetailsPageObj.clickNewBranchButton();
@@ -206,7 +204,7 @@ public class TestExecution extends TableHelper {
 		alert.accept();
 	}
 
-	@Test(priority = 16,groups = {"branch", "reset", "valid"})
+	@Test(priority = 16, groups = { "branch", "reset", "valid" })
 	public void branchCreationRest() {
 		branchDetailsPageObj = adminHomePageObj.clickBranchButton();
 		branchCreationPageObj = branchDetailsPageObj.clickNewBranchButton();
@@ -219,23 +217,38 @@ public class TestExecution extends TableHelper {
 		branchCreationPageObj.clickResetButton();
 	}
 
-	@Test(priority = 17, groups = {"branch", "cancel", "valid"})
+	@Test(priority = 17, groups = { "branch", "cancel", "valid" })
 	public void branchCreationCancel() {
 		branchDetailsPageObj = adminHomePageObj.clickBranchButton();
 		branchCreationPageObj = branchDetailsPageObj.clickNewBranchButton();
 		branchDetailsPageObj = branchCreationPageObj.CancelButton();
 	}
-	
-	@Test(priority = 18)
-	public void editRole() throws InterruptedException {
-		adminHomePageObj.clickRoleButton();
-		handleTable(By.xpath("//table[@id='DGRoles']/tbody"), "edit", "259");
-		//role updation page
-		//update any one field
-		//click on update button
-		Thread.sleep(2000);
-	}
 
-	
+//	@Test(priority = 18)
+//	public void editRole() throws InterruptedException {
+//		adminHomePageObj.clickRoleButton();
+//		handleTable(By.xpath("//table[@id='DGRoles']/tbody"), "edit", "259");
+//		//role updation page
+//		//update any one field
+//		//click on update button
+//		Thread.sleep(2000);
+//	}
+	@Test(priority = 19, dataProviderClass = DataProvidersClass.class, dataProvider = "branch_data")
+	public void branchCreationWithDDUsingDP(String bname, String add1, String zcode, String country, String state,
+			String city) {
+		branchDetailsPageObj = adminHomePageObj.clickBranchButton();
+		branchCreationPageObj = branchDetailsPageObj.clickNewBranchButton();
+		branchCreationPageObj.fillBranchName(bname);
+		branchCreationPageObj.fillAddressName(add1);
+		branchCreationPageObj.fillZipcode(zcode);
+		branchCreationPageObj.fillCountry(country);
+		branchCreationPageObj.fillState(state);
+		branchCreationPageObj.fillCity(city);
+		alert = branchCreationPageObj.clickSubmit();
+		String alertText = alert.getText();
+		alert.accept();
+		Reporter.log("alert came : "+alertText);
+		Assert.assertTrue(validateAlert("created Sucessfully", alertText));
+	}
 
 }

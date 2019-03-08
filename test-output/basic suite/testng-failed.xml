@@ -5,7 +5,7 @@
     <classes>
       <class name="in.srssprojects.keximbank.BaseicExecution">
         <methods>
-          <include name="testTable"/>
+          <include name="branchCreationWithDDUsingDP" invocation-numbers="0 1 2 3 4 5"/>
           <include name="logoutTest"/>
           <include name="browserLaunch"/>
         </methods>

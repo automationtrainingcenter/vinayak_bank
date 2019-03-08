@@ -32,9 +32,9 @@ public class BrowserHelper {
 		return df.format(date);
 	}
 	
-	public String getFilePath(String folderName, String fileName) {
+	public static String getFilePath(String folderName, String fileName) {
 		return System.getProperty("user.dir")+File.separator+folderName+File.separator+fileName;
-	}
+	} 
 	
 	public void captureScreenShot(String folderName, String fileName) {
 		File srcImage = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
