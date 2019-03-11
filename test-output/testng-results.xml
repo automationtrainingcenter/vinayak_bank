@@ -1,95 +1,606 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" ignored="16" total="23" passed="1">
+<testng-results skipped="0" failed="1" ignored="11" total="18" passed="6">
   <reporter-output>
     <line>
-      <![CDATA[alert came : New Branch with id 2360 created Sucessfully]]>
+      <![CDATA[locating an element using By.id: txtuId]]>
     </line>
     <line>
-      <![CDATA[alert came : New Branch with id 2361 created Sucessfully]]>
+      <![CDATA[element located successfully]]>
     </line>
     <line>
-      <![CDATA[alert came : New Branch with id 2362 created Sucessfully]]>
+      <![CDATA[element value changed Admin]]>
     </line>
     <line>
-      <![CDATA[alert came : New Branch with id 2363 created Sucessfully]]>
+      <![CDATA[locating an element using By.id: txtPword]]>
     </line>
     <line>
-      <![CDATA[alert came : New Branch with id 2364 created Sucessfully]]>
+      <![CDATA[element located successfully]]>
     </line>
     <line>
-      <![CDATA[alert came : New Branch with id 2365 created Sucessfully]]>
+      <![CDATA[element value changed Admin]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: login]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.cssSelector: a[href='home.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.cssSelector: a[href='Admin_Roles_details.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: btnRoles]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: txtRname]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[element value changed associateManagerTen]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: txtRDesc]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[element value changed associate manager]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lstRtypeN]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lstRtypeN]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lstRtypeN]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "E"]]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: Btn_Reset]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.cssSelector: a[href='Admin_Roles_details.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: btnRoles]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: Btn_cancel]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.cssSelector: a[href='Admin_Emp_details.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: BtnNew]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.xpath: //input[@id='txtUname']]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[element value changed Aruntej]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: txtLpwd]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[element value changed Test@123]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_Roles]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_Roles]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_Roles]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "manager"]]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_Branch]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_Branch]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_Branch]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "Amritsar"]]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: btnreset]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.cssSelector: a[href='Admin_Emp_details.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: BtnNew]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: btnCancel]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.cssSelector: a[href='admin_banker_master.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: BtnNewBR]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: txtbName]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[element value changed newbranchName]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: txtAdd1]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[element value changed lingampalli]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: txtZip]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[element value changed 54321]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_counrtyU]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_counrtyU]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_counrtyU]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "INDIA"]]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_stateI]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_stateI]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_stateI]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "Delhi"]]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_cityI]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_cityI]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: lst_cityI]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "Delhi"]]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: Btn_Reset]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.cssSelector: a[href='admin_banker_master.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: BtnNewBR]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.id: Btn_cancel]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
+    </line>
+    <line>
+      <![CDATA[locating an element using By.cssSelector: a[href='home.aspx']]]>
+    </line>
+    <line>
+      <![CDATA[element located successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicking on that element]]>
+    </line>
+    <line>
+      <![CDATA[element clicked]]>
     </line>
   </reporter-output>
-  <suite name="basic suite" duration-ms="42325" started-at="2019-03-08T04:04:43Z" finished-at="2019-03-08T04:05:26Z">
+  <suite name="groups suite" duration-ms="53811" started-at="2019-03-11T04:06:02Z" finished-at="2019-03-11T04:06:56Z">
     <groups>
-      <group name="valid">
-        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- valid -->
       <group name="cancel">
-        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.branchCreationCancel()[pri:17, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="branchCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeCreationCancel()[pri:12, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="employeeCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- cancel -->
+      <group name="valid">
+        <method signature="TestExecution.branchCreationCancel()[pri:17, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="branchCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.branchCreationRest()[pri:16, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="branchCreationRest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeCreationCancel()[pri:12, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="employeeCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeCreationReset()[pri:11, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="employeeCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- valid -->
       <group name="role">
-        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="roleCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- role -->
       <group name="invalid">
-        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- invalid -->
-      <group name="create">
-        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
-      </group> <!-- create -->
       <group name="reset">
-        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.branchCreationRest()[pri:16, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="branchCreationRest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeCreationReset()[pri:11, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="employeeCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="roleCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- reset -->
+      <group name="create">
+        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
+      </group> <!-- create -->
       <group name="employee">
-        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeCreationCancel()[pri:12, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="employeeCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.employeeCreationReset()[pri:11, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="employeeCreationReset" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- employee -->
       <group name="branch">
-        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.branchCreationCancel()[pri:17, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="branchCreationCancel" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.branchCreationRest()[pri:16, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="branchCreationRest" class="in.srssprojects.keximbank.TestExecution"/>
+        <method signature="TestExecution.testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="testLogin" class="in.srssprojects.keximbank.TestExecution"/>
       </group> <!-- branch -->
     </groups>
-    <test name="basic test" duration-ms="42325" started-at="2019-03-08T04:04:43Z" finished-at="2019-03-08T04:05:26Z">
+    <test name="groups test" duration-ms="53811" started-at="2019-03-11T04:06:02Z" finished-at="2019-03-11T04:06:56Z">
       <class name="in.srssprojects.keximbank.BaseicExecution">
-        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="browserLaunch" is-config="true" duration-ms="13125" started-at="2019-03-08T04:04:43Z" finished-at="2019-03-08T04:04:56Z">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="browserLaunch" is-config="true" duration-ms="15483" started-at="2019-03-11T04:06:02Z" finished-at="2019-03-11T04:06:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="testLogin" duration-ms="3010" started-at="2019-03-08T04:04:56Z" finished-at="2019-03-08T04:04:59Z">
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="testLogin" duration-ms="8307" started-at="2019-03-11T04:06:17Z" finished-at="2019-03-11T04:06:26Z">
           <reporter-output>
+            <line>
+              <![CDATA[locating an element using By.id: txtuId]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[element value changed Admin]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: txtPword]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[element value changed Admin]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: login]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.cssSelector: a[href='home.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="FAIL" signature="branchCreationWithDDUsingDP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="branchCreationWithDDUsingDP" duration-ms="5988" started-at="2019-03-08T04:05:00Z" data-provider="branch_data" finished-at="2019-03-08T04:05:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BranchAnyWhereOne]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hyder nagar]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[54321]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[INDIA]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Andhra Pradesh]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="roleCreationReset()[pri:5, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="roleCreationReset" duration-ms="2804" started-at="2019-03-11T04:06:26Z" finished-at="2019-03-11T04:06:29Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -100,7 +611,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.branchCreationWithDDUsingDP(TestExecution.java:251)
+at in.srssprojects.keximbank.TestExecution.roleCreationReset(TestExecution.java:88)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -131,405 +642,503 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[alert came : New Branch with id 2360 created Sucessfully]]>
+              <![CDATA[locating an element using By.cssSelector: a[href='Admin_Roles_details.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: btnRoles]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: txtRname]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[element value changed associateManagerTen]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: txtRDesc]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[element value changed associate manager]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lstRtypeN]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lstRtypeN]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lstRtypeN]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "E"]]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: Btn_Reset]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- branchCreationWithDDUsingDP -->
-        <test-method status="FAIL" signature="branchCreationWithDDUsingDP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="branchCreationWithDDUsingDP" duration-ms="3355" started-at="2019-03-08T04:05:06Z" data-provider="branch_data" finished-at="2019-03-08T04:05:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BranchAnywhereTwo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hyder nagar]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[54321]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[INDIA]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Andhra Pradesh]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.branchCreationWithDDUsingDP(TestExecution.java:251)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- roleCreationReset -->
+        <test-method status="PASS" signature="roleCreationCancel()[pri:6, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="roleCreationCancel" duration-ms="1520" started-at="2019-03-11T04:06:30Z" finished-at="2019-03-11T04:06:31Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came : New Branch with id 2361 created Sucessfully]]>
+              <![CDATA[locating an element using By.cssSelector: a[href='Admin_Roles_details.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: btnRoles]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: Btn_cancel]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- branchCreationWithDDUsingDP -->
-        <test-method status="FAIL" signature="branchCreationWithDDUsingDP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="branchCreationWithDDUsingDP" duration-ms="3513" started-at="2019-03-08T04:05:10Z" data-provider="branch_data" finished-at="2019-03-08T04:05:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BranchAnywhereThree]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hyder nagar]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[54321]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[INDIA]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Andhra Pradesh]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.branchCreationWithDDUsingDP(TestExecution.java:251)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- roleCreationCancel -->
+        <test-method status="PASS" signature="employeeCreationReset()[pri:11, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="employeeCreationReset" duration-ms="9757" started-at="2019-03-11T04:06:31Z" finished-at="2019-03-11T04:06:41Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came : New Branch with id 2362 created Sucessfully]]>
+              <![CDATA[locating an element using By.cssSelector: a[href='Admin_Emp_details.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: BtnNew]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.xpath: //input[@id='txtUname']]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[element value changed Aruntej]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: txtLpwd]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[element value changed Test@123]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_Roles]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_Roles]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_Roles]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "manager"]]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_Branch]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_Branch]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_Branch]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "Amritsar"]]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: btnreset]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- branchCreationWithDDUsingDP -->
-        <test-method status="FAIL" signature="branchCreationWithDDUsingDP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="branchCreationWithDDUsingDP" duration-ms="3685" started-at="2019-03-08T04:05:13Z" data-provider="branch_data" finished-at="2019-03-08T04:05:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BranchAnywhereFour]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hyder nagar]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[54321]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[INDIA]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Andhra Pradesh]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.branchCreationWithDDUsingDP(TestExecution.java:251)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- employeeCreationReset -->
+        <test-method status="PASS" signature="employeeCreationCancel()[pri:12, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="employeeCreationCancel" duration-ms="6809" started-at="2019-03-11T04:06:41Z" finished-at="2019-03-11T04:06:48Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came : New Branch with id 2363 created Sucessfully]]>
+              <![CDATA[locating an element using By.cssSelector: a[href='Admin_Emp_details.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: BtnNew]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: btnCancel]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- branchCreationWithDDUsingDP -->
-        <test-method status="FAIL" signature="branchCreationWithDDUsingDP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="branchCreationWithDDUsingDP" duration-ms="4182" started-at="2019-03-08T04:05:17Z" data-provider="branch_data" finished-at="2019-03-08T04:05:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BranchAnywhereFive]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hyder nagar]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[54321]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[INDIA]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Andhra Pradesh]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.branchCreationWithDDUsingDP(TestExecution.java:251)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- employeeCreationCancel -->
+        <test-method status="PASS" signature="branchCreationRest()[pri:16, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="branchCreationRest" duration-ms="5160" started-at="2019-03-11T04:06:48Z" finished-at="2019-03-11T04:06:53Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came : New Branch with id 2364 created Sucessfully]]>
+              <![CDATA[locating an element using By.cssSelector: a[href='admin_banker_master.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: BtnNewBR]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: txtbName]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[element value changed newbranchName]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: txtAdd1]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[element value changed lingampalli]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: txtZip]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[element value changed 54321]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_counrtyU]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_counrtyU]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_counrtyU]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "INDIA"]]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_stateI]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_stateI]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_stateI]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "Delhi"]]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_cityI]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_cityI]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: lst_cityI]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.xpath: .//option[normalize-space(.) = "Delhi"]]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: Btn_Reset]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- branchCreationWithDDUsingDP -->
-        <test-method status="FAIL" signature="branchCreationWithDDUsingDP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="branchCreationWithDDUsingDP" duration-ms="3365" started-at="2019-03-08T04:05:21Z" data-provider="branch_data" finished-at="2019-03-08T04:05:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BranchAnywhereSix]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hyder nagar]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[54321]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[INDIA]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Andhra Pradesh]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Hyderabad]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at in.srssprojects.keximbank.TestExecution.branchCreationWithDDUsingDP(TestExecution.java:251)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- branchCreationRest -->
+        <test-method status="PASS" signature="branchCreationCancel()[pri:17, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="branchCreationCancel" duration-ms="1745" started-at="2019-03-11T04:06:53Z" finished-at="2019-03-11T04:06:55Z">
           <reporter-output>
             <line>
-              <![CDATA[alert came : New Branch with id 2365 created Sucessfully]]>
+              <![CDATA[locating an element using By.cssSelector: a[href='admin_banker_master.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: BtnNewBR]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
+            <line>
+              <![CDATA[locating an element using By.id: Btn_cancel]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- branchCreationWithDDUsingDP -->
-        <test-method status="PASS" signature="logoutTest()[pri:0, instance:in.srssprojects.keximbank.BaseicExecution@42d80b78]" name="logoutTest" is-config="true" duration-ms="1156" started-at="2019-03-08T04:05:24Z" finished-at="2019-03-08T04:05:26Z">
+        </test-method> <!-- branchCreationCancel -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:in.srssprojects.keximbank.BaseicExecution@1a968a59]" name="logoutTest" is-config="true" duration-ms="1134" started-at="2019-03-11T04:06:55Z" finished-at="2019-03-11T04:06:56Z">
           <reporter-output>
+            <line>
+              <![CDATA[locating an element using By.cssSelector: a[href='home.aspx']]]>
+            </line>
+            <line>
+              <![CDATA[element located successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicking on that element]]>
+            </line>
+            <line>
+              <![CDATA[element clicked]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logoutTest -->
       </class> <!-- in.srssprojects.keximbank.BaseicExecution -->
-    </test> <!-- basic test -->
-  </suite> <!-- basic suite -->
+    </test> <!-- groups test -->
+  </suite> <!-- groups suite -->
 </testng-results>
