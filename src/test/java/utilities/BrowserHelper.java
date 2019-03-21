@@ -7,6 +7,8 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,13 +19,18 @@ import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
-public class BrowserHelper{
+import bsh.Remote;
+
+public class BrowserHelper {
 
 	protected WebDriver driver;
 	protected EventFiringWebDriver edriver;
@@ -91,6 +98,43 @@ public class BrowserHelper{
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	}
+
+	public void launchBrowser(String browserName, String url, String nodeURl, String os) {
+		DesiredCapabilities caps = new DesiredCapabilities();
+		if (os.toLowerCase().contains("windows")) {
+			caps.setPlatform(Platform.WINDOWS);
+		}
+		if (os.toLowerCase().contains("mac")) {
+			caps.setPlatform(Platform.MAC);
+		}
+		if (os.toLowerCase().contains("linux")) {
+			caps.setPlatform(Platform.LINUX);
+		}
+		if (browserName.toLowerCase().contains("firefox")) {
+			caps = DesiredCapabilities.firefox();
+		}
+		if (browserName.toLowerCase().contains("chrome")) {
+			caps = DesiredCapabilities.chrome();
+		}
+		try {
+			driver = new RemoteWebDriver(new URL(nodeURl), caps);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+
+		// event lister
+		edriver = new EventFiringWebDriver(driver);
+		// Create listener class object
+		Listener listener = new Listener();
+		// register register with event firing webdriver
+		edriver.register(listener);
+		driver = edriver;
+
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
 	}
 
 	public void sleep(long timeInMillis) {
